@@ -1,5 +1,7 @@
 <?php
 
-echo "Hello world!";
+require('inc/global.inc.php');
+
+echo 'Hello world!';
 
 ?>
