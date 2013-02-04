@@ -12,9 +12,9 @@ function handleError($errorNumber, $errorString, $file, $line, $vars) {
 	}
 }
 
-echo $unset;
-
 set_error_handler('handleError');
+
+echo $unset;
 
 session_start();
 
