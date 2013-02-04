@@ -1,7 +1,5 @@
 <?php
 
-require('dblogin.cfg.php');
-
 if(get_cfg_var("mysql.default_user")){
 	$db = new mysqli();
 }else{
